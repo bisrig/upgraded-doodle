@@ -35,7 +35,7 @@ def validate_note(note):
    if len(note) >= 255:
       raise ValueError('Note is too long')
 
-def add_ledger_item(month, entry_type, category, amount, note):
+def add_ledger_entry(month, entry_type, category, amount, note):
    try:
       validate_month(month)
       validate_entry_type(entry_type)

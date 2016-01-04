@@ -1,0 +1,1 @@
+This project is a bit of a toy - it's basically a little Python app to help me keep track of budget stuff. Normally this would be spreadsheet-o-rama, but I am using this to learn a little bit about interacting with a database in Python (specifically peewee at this time, but I've changed my mind before and I may change it again).
